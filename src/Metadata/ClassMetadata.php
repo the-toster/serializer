@@ -230,6 +230,7 @@ class ClassMetadata extends MergeableClassMetadata
         }
 
         $this->isMap = $object->isMap;
+        $this->isEnum = $object->isEnum;
         $this->isList = $object->isList;
         $this->isEnum = $object->isEnum;
 
